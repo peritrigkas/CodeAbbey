@@ -7,16 +7,17 @@ using System.Threading.Tasks;
 namespace CodeAbbey
 {
     class Sum
-    {
+    {    
+           
         static void Main(string[] args)
         {
+            new MultipleArraySum();
 
             string[] tokens = Console.ReadLine().Split(' ');
             string[] token = Console.ReadLine().Split(' ');
            
             int totalLine = 0;
             int i;
-           
 
             for (i = 0; i < token.Length; i++)
             {
