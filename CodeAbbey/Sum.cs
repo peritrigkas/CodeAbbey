@@ -11,11 +11,16 @@ namespace CodeAbbey
            
         static void Main(string[] args)
         {
-            new MultipleArraySum();
+            MultipleArraySum.MultipleArrayTotal();
+            arraySum();
+        }
 
-            string[] tokens = Console.ReadLine().Split(' ');
+        static void arraySum()
+        {
+            //string[] tokens = Console.ReadLine().Split(' ');
+            Console.WriteLine("Type an array of numbers :");
             string[] token = Console.ReadLine().Split(' ');
-           
+
             int totalLine = 0;
             int i;
 
@@ -24,8 +29,8 @@ namespace CodeAbbey
                 totalLine = totalLine + int.Parse(token[i]);
             }
 
-            
-            Console.WriteLine(totalLine);
+
+            Console.WriteLine(" The sume is  " + totalLine);
             Console.ReadLine();
         }
     }
