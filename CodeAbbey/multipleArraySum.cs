@@ -9,13 +9,13 @@ namespace CodeAbbey
 {
     public class MultipleArraySum
     {
-        public static void MultipleArrayTotal()
+        public void MultipleArrayTotal()
         {
             
         int i = 0;
-        int[] total =new int[13];
+        int[] total =new int[5];
             
-            for (i = 0; i < 13; i++)
+            for (i = 0; i < 5; i++)
             {
                 string[] tokens = Console.ReadLine().Split(' ');
                 int Sum = int.Parse(tokens[0]) + int.Parse(tokens[1]);

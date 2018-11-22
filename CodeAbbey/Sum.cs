@@ -11,7 +11,8 @@ namespace CodeAbbey
            
         static void Main(string[] args)
         {
-            MultipleArraySum.MultipleArrayTotal();
+            MultipleArraySum mas = new MultipleArraySum();
+            mas.MultipleArrayTotal();
             arraySum();
         }
 
