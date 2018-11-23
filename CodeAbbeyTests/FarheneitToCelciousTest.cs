@@ -9,10 +9,14 @@ namespace CodeAbbeyTests
         [TestMethod]
         public void TestMethod1()
         {
-            double[] Fahreneit = new double[10];
-            double[] expected = new double[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+            int[] Fahreneit = new int[5];
+            double[] expected = new double[] { -16, 1, 296, 38, 100 };
+            double[] actual = new double[] { -16, 1, 296, 38, 100 };
+            FahrenheitToCelcious celciousTest = new FahrenheitToCelcious();
 
-           //FarheneitToCelcious celciousTest = new FarheneitToCelcious();
+            celciousTest.Conversion(Fahreneit);
+
+            CollectionAssert.AreEqual(expected, actual);
 
                       
 

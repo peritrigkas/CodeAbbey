@@ -14,8 +14,9 @@ namespace CodeAbbey
             //MultipleArraySum mas = new MultipleArraySum();
             //mas.MultipleArrayTotal();
             //arraySum();
+            int[] array = new int[5];
             FahrenheitToCelcious fahrenheit = new FahrenheitToCelcious();
-            fahrenheit.Conversion();
+            fahrenheit.Conversion(array);
         }
 
         static void arraySum()

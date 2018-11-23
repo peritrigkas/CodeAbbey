@@ -6,25 +6,28 @@ using System.Threading.Tasks;
 
 namespace CodeAbbey
 {
-    class FahrenheitToCelcious
+    public class FahrenheitToCelcious
     {
-        public void Conversion()
+        public int[] Conversion(int[] array)
         {
             int i = 0;
             //double[] Farhenheit = new double[i];
-            string [] arrayOfData = Console.ReadLine().Split(' ');
-            double[] celciousArray = new double[arrayOfData.Length];
+            //string [] arrayOfData = Console.ReadLine().Split(' ');
+            int[] arrayOfData = new int[] { 3, 34, 565, 100, 212 };
+            int[] celciousArray = new int[arrayOfData.Length];
 
-            foreach(string Farheneit in arrayOfData)
+            foreach(int Farheneit in arrayOfData)
             {
-                double celcious = Math.Round((double.Parse(Farheneit) - 32) / 1.8);
+                int celcious = (int)Math.Round(((Farheneit) - 32) / 1.8);
                              
                 celciousArray[i] = celcious;
                 i++;
-                
+               
             }
-            Console.WriteLine("{0}", string.Join(" ", celciousArray));
-            Console.ReadKey();
+            return celciousArray;
+            //Console.WriteLine("{0}", string.Join(" ", celciousArray));
+            //Console.ReadKey();
+            
 
 
         }
