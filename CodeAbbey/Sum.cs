@@ -11,9 +11,11 @@ namespace CodeAbbey
            
         static void Main(string[] args)
         {
-            MultipleArraySum mas = new MultipleArraySum();
-            mas.MultipleArrayTotal();
-            arraySum();
+            //MultipleArraySum mas = new MultipleArraySum();
+            //mas.MultipleArrayTotal();
+            //arraySum();
+            FahrenheitToCelcious fahrenheit = new FahrenheitToCelcious();
+            fahrenheit.Conversion();
         }
 
         static void arraySum()
