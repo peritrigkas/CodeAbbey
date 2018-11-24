@@ -7,16 +7,20 @@ using System.Threading.Tasks;
 namespace CodeAbbey
 {
     class Sum
-    {    
-           
+    {
+
         static void Main(string[] args)
         {
             //MultipleArraySum mas = new MultipleArraySum();
             //mas.MultipleArrayTotal();
             //arraySum();
-            int[] array = new int[5];
-            FahrenheitToCelcious fahrenheit = new FahrenheitToCelcious();
-            fahrenheit.Conversion(array);
+            int[,,] array = new int[2, 1, 3] { { { 5, 2, 3 } },
+                                              { { 3,0,10 } } };
+            //FahrenheitToCelcious fahrenheit = new FahrenheitToCelcious();
+            //fahrenheit.Conversion(array);
+            ArithmeticProgression sequenceResult = new ArithmeticProgression();
+            sequenceResult.progression(array);
+                
         }
 
         static void arraySum()
