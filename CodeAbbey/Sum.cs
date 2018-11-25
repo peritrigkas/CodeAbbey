@@ -14,12 +14,15 @@ namespace CodeAbbey
             //MultipleArraySum mas = new MultipleArraySum();
             //mas.MultipleArrayTotal();
             //arraySum();
-            int[,,] array = new int[2, 1, 3] { { { 5, 2, 3 } },
-                                              { { 3,0,10 } } };
+            //int[,,] array = new int[2, 1, 3] { { { 5, 2, 3 } },
+                                             // { { 3,0,10 } } };
             //FahrenheitToCelcious fahrenheit = new FahrenheitToCelcious();
             //fahrenheit.Conversion(array);
-            ArithmeticProgression sequenceResult = new ArithmeticProgression();
-            sequenceResult.progression(array);
+            //ArithmeticProgression sequenceResult = new ArithmeticProgression();
+            //sequenceResult.progression(array);
+
+            Triangles TriangleSides = new Triangles();
+            TriangleSides.FindingCorrectTriagleTriplets();
                 
         }
 
