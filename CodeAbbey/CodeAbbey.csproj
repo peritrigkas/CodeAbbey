@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="ArithmeticProgression.cs" />
     <Compile Include="FahrenheitToCelcious.cs" />
+    <Compile Include="LinearFunction.cs" />
     <Compile Include="multipleArraySum.cs" />
     <Compile Include="Sum.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

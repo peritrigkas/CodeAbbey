@@ -14,9 +14,6 @@ namespace CodeAbbey
         // string[] inputNums = Console.ReadLine().Split(' ');
 
         //int[] resultArray= new int[100];
-
-        
-
         public int[] progression(int[,,] array)
         {
             int arrayRows = array.GetLength(0);
@@ -44,10 +41,10 @@ namespace CodeAbbey
             }
             Console.WriteLine("{0}", string.Join(" ", resultArray));
             //Console.ReadKey();
-            return resultArray;
             
             
-           
+            
+           return resultArray;
         }
         
     }

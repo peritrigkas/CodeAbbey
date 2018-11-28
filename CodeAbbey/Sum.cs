@@ -17,13 +17,14 @@ namespace CodeAbbey
             //int[,,] array = new int[2, 1, 3] { { { 5, 2, 3 } },
                                               //{ { 3,0,10 } } };
 
-            int[,,] array = new int[2, 2, 3] { { { 1, 3, 3}, { 2, 1, 2} },
-                                               { { 1, 2, 3}, { 4, 3, 2} } };
+            //int[,,] array = new int[2, 2, 3] { { { 1, 3, 3}, { 2, 1, 2} },
+                                               //{ { 1, 2, 3}, { 4, 3, 2} } };
             //FahrenheitToCelcious fahrenheit = new FahrenheitToCelcious();
             //fahrenheit.Conversion(array);
-            ArithmeticProgression sequenceResult = new ArithmeticProgression();
-            sequenceResult.progression(array);
-
+            //ArithmeticProgression sequenceResult = new ArithmeticProgression();
+            //sequenceResult.progression(array);
+            LinearFunction Linear = new LinearFunction();
+            Linear.FindParameters();
             //Triangles TriangleSides = new Triangles();
             //TriangleSides.FindingCorrectTriagleTriplets();
 
